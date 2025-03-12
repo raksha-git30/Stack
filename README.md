@@ -4,18 +4,17 @@ Author-Raksha Shrimanwar
 <br>
 1.Stack implementation through array
 <br>
-//stack impllementation using array                           runninng succerssfully
+
 #include<iostream>
 using namespace std;
 class Stack{
     public:
-    //members
+    
     int top;
     int *arr;
     int size;
 
-    //behaviour
-    //constructor
+   
     Stack(int size)
     {
         this->size=size;
